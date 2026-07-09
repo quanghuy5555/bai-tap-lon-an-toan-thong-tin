@@ -1,0 +1,29 @@
+# Khóa RSA & database - TUYỆT ĐỐI KHÔNG commit
+backend/keys/
+*.pem
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Node / frontend
+node_modules/
+dist/
+.env
+
+# Playwright raw per-run video dumps (giữ lại demo/demo.webm là bản chính)
+demo/videos/
+backend/server.log
+backend/server.err
+frontend/vite.log
+frontend/vite.err
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
